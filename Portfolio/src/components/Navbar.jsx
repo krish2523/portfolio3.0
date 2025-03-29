@@ -1,8 +1,10 @@
 import { useState } from "react";
-import { BsGithub, BsInstagram, BsLinkedin, BsYoutube } from "react-icons/bs";
+import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { BiX, BiMenu } from "react-icons/bi";
+
 const Navbar = () => {
   const [IsOpen, setIsOpen] = useState(false);
-  const menuOption = () => {
+  const menuOpen = () => {
     setIsOpen(!IsOpen);
   };
   return (
@@ -57,7 +59,52 @@ const Navbar = () => {
         <BiMenu className="block md:hidden text:4xl" onClick={menuOpen} />
       )}
 
-      {IsOpen && <div className="fixed right-0 top-8"></div>}
+      {IsOpen && (
+        <div
+          className={`fixed right-0 top-[84px] flex h-screen w-1/2 flex-col items-start justify-start gap-10 border-1 border-gray-800 bg-black/90 p-12${
+            IsOpen ? "block" : "hidden"
+          }`}
+        >
+          <ul className="flex flex-col gap-8 px-3 py-3">
+            <a
+              href="#home"
+              className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100 "
+            >
+              Home
+            </a>
+            <a
+              href="#tech"
+              className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
+            >
+              Tech
+            </a>
+            <a
+              href="#projects"
+              className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
+            >
+              Projects
+            </a>
+            <a
+              href="#contact"
+              className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
+            >
+              Contact
+            </a>
+          </ul>
+
+          <ul className="flex flex-wrap gap-5 px-3">
+            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-fuchsia-500 hover:opacity-100">
+              <BsInstagram />
+            </li>
+            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
+              <BsLinkedin />
+            </li>
+            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-orange-500 hover:opacity-100">
+              <BsGithub />
+            </li>
+          </ul>
+        </div>
+      )}
     </nav>
   );
 };
