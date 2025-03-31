@@ -102,15 +102,24 @@ const Navbar = () => {
           </ul>
 
           <ul className="flex flex-wrap gap-5 px-3">
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-fuchsia-500 hover:opacity-100">
+            <a
+              href="https://www.instagram.com/__truly_krish__/"
+              className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-fuchsia-500 hover:opacity-100"
+            >
               <BsInstagram />
-            </li>
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
+            </a>
+            <a
+              href="https://www.linkedin.com/in/krish-kapoor-12aa1b28a/"
+              className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100"
+            >
               <BsLinkedin />
-            </li>
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-orange-500 hover:opacity-100">
+            </a>
+            <a
+              href="https://github.com/krish2523/krish2523"
+              className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-orange-500 hover:opacity-100"
+            >
               <BsGithub />
-            </li>
+            </a>
           </ul>
         </div>
       )}
