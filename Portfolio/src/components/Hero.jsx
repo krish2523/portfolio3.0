@@ -33,11 +33,11 @@ const Hero = () => {
             </h3>
             <p className="md:text-base text-pretty text-sm text-gray-400">
               I am a highly motivated Front-End Developer with a passion for
-              creating stunning websites. As a beginner, I am putting in all my
-              efforts to improve my skills and take on new challenges. I am
-              currently a 1st-year college student, proficient in languages such
-              as HTML, CSS, JavaScript, and C, React.Js, Node.Js and MongoDB and
-              am constantly pushing myself to learn more.
+              creating stunning websites. I am putting in all my efforts to
+              improve my skills and take on new challenges. I am currently a
+              2nd-year college student, proficient in languages such as HTML,
+              CSS, JavaScript, and C, React.Js, Node.Js and MongoDB,DSA,
+              Problem-Solving and am constantly pushing myself to learn more.
             </p>
           </motion.div>
         </div>
