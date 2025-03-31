@@ -8,14 +8,14 @@ const Navbar = () => {
     setIsOpen(!IsOpen);
   };
   return (
-    <nav className="fixed top-0 z-1 flex w-full items-center justify-between border-b border-b-gray-700 bg-black/70 px-0 py-3 text-white backdrop-blur-md md:justify-evenly">
+    <nav className="fixed top-0 z-1 flex w-full items-center justify-between border-b border-b-gray-700 bg-black/70 px-16 py-4 text-white backdrop-blur-md md:justify-evenly">
       <a
         href="#home"
-        className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent opacity-80 text-1xl font-semibold transition-all duration-300 hover:opacity-100"
+        className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent opacity-80 text-3xl font-semibold transition-all duration-300 hover:opacity-100"
       >
         Krish Kapoor
       </a>
-      <ul className="hidden md:flex gap-6 ">
+      <ul className="hidden md:flex gap-10 ">
         <a
           href="#home"
           className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100 "
@@ -42,15 +42,24 @@ const Navbar = () => {
         </a>
       </ul>
       <ul className="hidden md:flex gap-5">
-        <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-fuchsia-500 hover:opacity-100">
+        <a
+          href="https://www.instagram.com/__truly_krish__/"
+          className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-fuchsia-500 hover:opacity-100"
+        >
           <BsInstagram />
-        </li>
-        <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
+        </a>
+        <a
+          href="https://www.linkedin.com/in/krish-kapoor-12aa1b28a/"
+          className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100"
+        >
           <BsLinkedin />
-        </li>
-        <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-orange-500 hover:opacity-100">
+        </a>
+        <a
+          href="https://github.com/krish2523/krish2523"
+          className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-orange-500 hover:opacity-100"
+        >
           <BsGithub />
-        </li>
+        </a>
       </ul>
 
       {IsOpen ? (
