@@ -1,6 +1,6 @@
-import image1 from "/public/1.png";
-import image2 from "/public/2.png";
-import image3 from "/public/3.png";
+import image1 from "/src/public/1.png";
+import image2 from "/src/public/2.png";
+import image3 from "/src/public/3.png";
 
 import { motion } from "framer-motion";
 
