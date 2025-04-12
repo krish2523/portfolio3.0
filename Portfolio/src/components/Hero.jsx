@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className=" px-16 flex min-h-screen w-full items-center justify-center py-28 md:px-32"
+      className=" px-16 flex min-h-screen w-full items-center justify-center py-20 md:px-32"
     >
       <div className="flex flex-col items-center justify-center gap-10 text-white">
         <div className="items-center justify-center ml-2">
@@ -32,12 +32,14 @@ const Hero = () => {
               Web Developer
             </h3>
             <p className="md:text-base text-pretty text-sm text-gray-400">
-              I am a highly motivated Front-End Developer with a passion for
-              creating stunning websites. I am putting in all my efforts to
-              improve my skills and take on new challenges. I am currently a
-              2nd-year college student, proficient in languages such as HTML,
-              CSS, JavaScript, and C, React.Js, Node.Js and MongoDB,DSA,
-              Problem-Solving and am constantly pushing myself to learn more.
+              I am a highly motivated MERN Stack Developer with a strong focus
+              on creating innovative and scalable web applications. I specialize
+              in JavaScript, React.js, Node.js, MongoDB, and have expertise in
+              GenAI and CrewAI, continuously pushing myself to stay ahead of the
+              curve. As a 2nd-year college student, I'm proficient in Data
+              Structures & Algorithms and Problem-Solving, and I'm always
+              looking for new challenges to further enhance my skills in the
+              ever-evolving tech landscape.
             </p>
           </motion.div>
         </div>

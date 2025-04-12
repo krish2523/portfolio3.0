@@ -11,15 +11,15 @@ const projectsData = [
     description:
       "A web app that completely functions like a Movie Renting app. Implemented a RazorPay gateway for buying or renting a movie and automated movie updates through The Movie DataBase(TMDB).",
     technologies: ["React.js", "Axios", " JavaScript", " Tailwind CSS", "TMDB"],
-    link: "https://book-my-show-pi1z.vercel.app/",
+    link: "https://movie-mingle-chi.vercel.app/",
   },
   {
     image: image2,
-    title: "Library Management System",
+    title: "Researcher.AI",
     description:
-      "The backend of a Library Management System allows users to rent books after verifying their subscription status and checking for any outstanding fines. Utilize Postman or Thunderbolt for managing APIs alongside MongoDB to efficiently add or delete books from the system. This approach will streamline the process and enhance overall functionality.",
+      "AI Research Assistant is a powerful and intelligent research tool that leverages OpenAI GPT models and CrewAI agents to perform deep, structured research on any topic. This assistant is designed to provide well-structured reports, integrating real-time news and academic sources as per user preferences.",
     technologies: ["Node.Js", "Express.Js", " MongoDb", " Postman API "],
-    link: "https://github.com/krish2523/Library-Management-System",
+    link: "https://github.com/krish2523/Reasercher.ai",
   },
   {
     image: image3,
