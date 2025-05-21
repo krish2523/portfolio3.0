@@ -18,22 +18,24 @@ const projectsData = [
     title: "Researcher.AI",
     description:
       "AI Research Assistant is a powerful and intelligent research tool that leverages OpenAI GPT models and CrewAI agents to perform deep, structured research on any topic. This assistant is designed to provide well-structured reports, integrating real-time news and academic sources as per user preferences.",
-    technologies: ["Node.Js", "Express.Js", " MongoDb", " Postman API "],
+    technologies: ["LangChain", "StreamLit", "Agentic AI", "CrewAI"],
     link: "https://github.com/krish2523/Reasercher.ai",
   },
   {
     image: image3,
-    title: "To-Do-List (with Calendar)",
+    title: "Legal-Transformer:An AI Assistant for Lawyers",
     description:
-      "This feature enables users to systematically add tasks by specifying both start and end dates and times, facilitating efficient task management. The integration of the Calendar API with our To-Do List will facilitate a more streamlined user experience, enabling individuals to efficiently search for specific dates associated with their saved tasks.",
+      "Legal AI Assistant is an all-in-one AI-powered platform that helps legal professionals with document analysis, risk detection, transcription, contract generation, and legal research. It features tools like a Document Analyzer, Audio Transcriber, Contract Generator, and RAG-based Legal Chatbot—built using Streamlit, LangChain, Whisper, FAISS, and CrewAI with models like GPT-4o-mini and LLaMA 3.",
     technologies: [
-      "HTML",
-      "CSS",
-      " JavaScript",
-      " Tailwind CSS",
-      "Calendar API",
+      "LangChain",
+      "AgenticAI",
+      " CrewAI",
+      "Whisper Model",
+      "LLaMA 3",
+      "GPT-4o-mini",
+      "FAISS",
     ],
-    link: "https://krish2523.github.io/CBTC1/",
+    link: "https://drive.google.com/drive/folders/106MbDyroNrV-GmULqwhvn_a_Z0s52E9g?usp=sharing",
   },
 ];
 
@@ -62,7 +64,7 @@ const ProjectCard = ({ project }) => {
         <div className="flex flex-col gap-3">
           <div className="text-xl font-semibold">{project.title}</div>
           <a href={project.link} className="font-light text-sky-500">
-            Website
+            Demo
           </a>
           <p className="text-gray-400">{project.description}</p>
         </div>
