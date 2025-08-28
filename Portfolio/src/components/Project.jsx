@@ -10,16 +10,31 @@ const projectsData = [
     title: "Setu: Collaborative Environmental Action Platform",
     description:
       "Setu is a full-stack environmental platform where citizens report local issues with photos. An AI-powered backend instantly verifies and categorizes these reports, populating a live incident map and providing tailored dashboards for NGOs and government officials to coordinate a real-time, data-driven response.",
-    technologies: ["React.js", "Axios", " JavaScript", " Tailwind CSS", "TMDB"],
-    link: "https://movie-mingle-chi.vercel.app/",
+    technologies: [
+      "React.js",
+      "Python",
+      " FastAPI",
+      " Tailwind CSS",
+      "FireBase",
+      "Leaflet.js",
+      "OpenAI",
+      "LangGraph",
+    ],
+    link: "https://setu-front.vercel.app/",
   },
   {
     image: image2,
-    title: "Researcher.AI",
+    title: "Strmly: A Smooth Short Vdideo Experience",
     description:
-      "AI Research Assistant is a powerful and intelligent research tool that leverages OpenAI GPT models and CrewAI agents to perform deep, structured research on any topic. This assistant is designed to provide well-structured reports, integrating real-time news and academic sources as per user preferences.",
-    technologies: ["LangChain", "StreamLit", "Agentic AI", "CrewAI"],
-    link: "https://github.com/krish2523/Reasercher.ai",
+      "STRMLY is a short-video web application built with React.js that allows users to explore, watch, and interact with trending videos in a smooth, responsive interface. The project showcases my skills in frontend development, API integration, component-driven design, and state management, while delivering an engaging user experience similar to modern social media platforms.",
+    technologies: [
+      "React.js(Vite)",
+      "Tailwind CSS",
+      "React Icons",
+      "HTML5 Video",
+      "Intersection Observer API",
+    ],
+    link: "https://strmly-web.vercel.app/",
   },
   {
     image: image3,
