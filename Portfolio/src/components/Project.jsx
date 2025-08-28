@@ -7,9 +7,9 @@ import { motion } from "framer-motion";
 const projectsData = [
   {
     image: image1,
-    title: "MovieMingle",
+    title: "Setu: Collaborative Environmental Action Platform",
     description:
-      "A web app that completely functions like a Movie Renting app. Implemented a RazorPay gateway for buying or renting a movie and automated movie updates through The Movie DataBase(TMDB).",
+      "Setu is a full-stack environmental platform where citizens report local issues with photos. An AI-powered backend instantly verifies and categorizes these reports, populating a live incident map and providing tailored dashboards for NGOs and government officials to coordinate a real-time, data-driven response.",
     technologies: ["React.js", "Axios", " JavaScript", " Tailwind CSS", "TMDB"],
     link: "https://movie-mingle-chi.vercel.app/",
   },
